@@ -5,20 +5,10 @@ function f1(){
     if(0 <= score && score <= 100){
         switch(re){
             case 0:
-                msg = "不及格";
-                break;
             case 1:
-                msg = "不及格";
-                break;
             case 2:
-                msg = "不及格";
-                break;
             case 3:
-                msg = "不及格";
-                break;
             case 4:
-                msg = "不及格";
-                break;
             case 5:
                 msg = "不及格";
                 break;    
