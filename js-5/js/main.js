@@ -20,6 +20,9 @@ function f1(){
             case 2:
                 msg = "28天";
                 break;
+            default:
+                msg = "输入有误！请重新输入！"
+                
         }
        
     alert(msg);
