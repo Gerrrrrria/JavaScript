@@ -1,5 +1,5 @@
 function f1(){
-    var month = Number(prompt("请输入月份："));
+    var month = Number(prompt("请输入分数："));
     var msg;
         switch(month){
             case 1:
@@ -9,16 +9,16 @@ function f1(){
             case 8:
             case 10:
             case 12:
-                msg = "大月";
+                msg = "三十一天";
                 break;
             case 4:
             case 6:
             case 9:
             case 11:
-                msg = "小月";
+                msg = "三十天";
                 break;
             case 2:
-                msg = "28天";
+                msg = "二十八天";
                 break;
             default:
                 msg = "输入有误！请重新输入！"
