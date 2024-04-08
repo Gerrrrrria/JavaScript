@@ -5,7 +5,7 @@ function f1(){
 }
 
 function f2(){
-    let div = document.getElementById('my_div')
+    let div = document.getElementById('my_div1')
     let s = '台湾地区发生7.2级大地震，大陆汶川大地震'  // 10,18
     let i = s.indexOf('大地震')  //从左向右第一次出现的位置
     div.innerHTML = i
@@ -18,7 +18,7 @@ function f2(){
    .的索引 - @的索引 >= 2
 */
 function f3(){
-  let div = document.getElementById('my_div')
+  let div = document.getElementById('my_div2')
 //获取用户输入的email，然后进行合法性检验
   let email = document.getElementById('email').value
   let i = email.indexOf('.') - email.indexOf('@')
@@ -47,7 +47,7 @@ function f4(){
    let s = '实现中华民族伟大复兴的中国梦'
    s = s.replace('中国梦','chinese dream')
 
-   let div = document.getElementById('my_div')
+   let div = document.getElementById('my_div3')
    div.innerHTML = s
 
 }
