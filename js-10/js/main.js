@@ -34,12 +34,12 @@ function f3(){
 //     div.style.color = 'red'
 //   }
     if(i>=2 && ok==false ){
-    div.innerHTML = '邮箱格式合法'
-    div.style.color = 'green'
+      div.innerHTML = '邮箱格式合法'
+      div.style.color = 'green'
   }
   else{
-    div.innerHTML = '邮箱格式非法'
-    div.style.color = 'red'
+      div.innerHTML = '邮箱格式非法'
+      div.style.color = 'red'
   }
 }
 function f4(){
