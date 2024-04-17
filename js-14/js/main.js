@@ -5,10 +5,15 @@ window.onload = function(){
       let pwd = document.getElementById("pwd").value
 
       if(user =="admin" && pwd =="123456"){
-          alert("登陆成功！！！")
+          location="../js-13/index.html"
       }
       else{
           alert("用户名或密码错误")
       }
+      
+  }
+  
+  document.getElementById('btn2').onclick = function(){
+    history.go(-1)//-1后退，1前进 == history.back()
   }
 }
